@@ -24,14 +24,6 @@
             $('.sticky-top').removeClass('shadow-sm').css('top', '-100px');
         }
     });
-
-    $('.owl-carousel').owlCarousel({
-        items: 1,
-        autoplay: true,           // Enables autoplay
-        autoplayTimeout: 3000,     // Time interval between slides (3 seconds)
-        autoplayHoverPause: true,  // Pauses autoplay on hover
-        loop: true                 // Enables looping
-    });
     
     
     // Back to top button
@@ -103,6 +95,4 @@
 
     
 })(jQuery);
-
-
 
