@@ -1,8 +1,10 @@
 /********** Template CSS **********/
 :root {
-    --primary: #030b18;
+    /* --main : #FEF005; */
+    --main : #FCF86D;
+    --primary: rgba(255, 217, 0, 0.47);
     --light: gold;
-    --dark: #f8ef75;
+    --dark: black;
 }
 
 .fw-medium {
@@ -13,8 +15,20 @@
     font-weight: 700 !important;
 }
 
+.top-card {
+    margin-bottom: 4px !important;
+}
+
+.btn-sm-square {
+    background-color: rgba(255, 255, 255, 0.271) !important;
+}
+
 .fw-black {
     font-weight: 900 !important;
+}
+
+.bg-primary {
+    background-color: #000000 !important;
 }
 
 .back-to-top {
@@ -25,6 +39,17 @@
     z-index: 99;
 }
 
+.brand-main {
+    color: var(--main);
+}
+
+.brand-title {
+    margin-left: 5px !important;
+}
+
+.brand-white {
+    color: whitesmoke;
+}
 
 /*** Spinner ***/
 #spinner {
@@ -91,7 +116,7 @@
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: #f7e594;
+    color: var(--main);
     font-size: 15px;
     font-weight: 500;
     text-transform: uppercase;
@@ -120,7 +145,7 @@
 }
 
 .navbar .navbar-nav .nav-link {
-    color: var(--dark);
+    color: var(--main);
     font-weight: 500;
 }
 
@@ -144,7 +169,7 @@
         top: 100%;
         visibility: visible;
         transition: .5s;
-        opacity: 1;
+        opacity: .5;
     }
 }
 
@@ -271,6 +296,18 @@
     width: 140px;
 }
 
+.container-fluid {
+    background-color: var(--dark);
+}
+
+.navbar {
+    margin-top: -10px !important;
+}
+
+.hero-tag {
+    color: var(--main) !important;
+}
+
 
 /*** Feature ***/
 @media (min-width: 992px) {
@@ -301,6 +338,11 @@
     position: relative;
     top: 0;
     transition: .5s;
+}
+
+.dropdown-menu {
+    /* background-color: white !important; */
+    opacity: 1 !important;
 }
 
 .team-item:hover img {
