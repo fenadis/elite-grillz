@@ -28,9 +28,13 @@
     $('.owl-carousel').owlCarousel({
         items: 1,
         autoplay: true,           // Enables autoplay
-        autoplayTimeout: 3000,     // Time interval between slides (3 seconds)
+        autoplayTimeout: 1500,     // Time interval between slides (3 seconds)
         autoplayHoverPause: true,  // Pauses autoplay on hover
-        loop: true                 // Enables looping
+        loop: true,
+        nav: true,
+        dots: false,
+        navText: ["<span><</span>", "<span>></span>"],  // Custom text for navigation
+        // Enables looping
     });
     
     
