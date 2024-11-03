@@ -11,34 +11,20 @@
     font-weight: 500 !important;
 }
 
-.owl-nav {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    transform: translateY(-50%);
-}
-
-.owl-nav button {
-    background-color: #000; /* Customize arrow background */
-    color: #fff; /* Customize arrow color */
-    border: none;
-    border-radius: 50%;
-    margin-top: 100px;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .owl-nav div.owl-prev {
     left: 10px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .owl-nav div.owl-next {
     right: 10px;
-    margin-top: 40px;
+    margin-top: 10px;
+}
+
+.owl-next, .owl-prev {
+    background-color: var(--light) !important;
+    color: black !important;
 }
 
 .fw-bold {

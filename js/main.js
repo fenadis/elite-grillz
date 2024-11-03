@@ -26,17 +26,15 @@
     });
 
     $('.owl-carousel').owlCarousel({
+        items: 1,
+        autoplay: true,           // Enables autoplay
+        autoplayTimeout: 1500,     // Time interval between slides (3 seconds)
+        autoplayHoverPause: true,  // Pauses autoplay on hover
         loop: true,
-        margin: 10,
-        nav: true,  // Enables navigation arrows
-        navText: ["<span><</span>", "<span>></span>"],  // Custom text for navigation
+        nav: true,
         dots: false,
-        responsive: {
-            0: { items: 1 },
-            600: { items: 2 },
-            1000: { items: 3 }
-        }
-                   // Enables looping
+        navText: ["<span><</span>", "<span>></span>"],  // Custom text for navigation
+        // Enables looping
     });
     
     
