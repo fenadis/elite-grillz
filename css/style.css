@@ -11,6 +11,22 @@
     font-weight: 500 !important;
 }
 
+
+.owl-nav div.owl-prev {
+    left: 10px;
+    margin-top: 10px;
+}
+
+.owl-nav div.owl-next {
+    right: 10px;
+    margin-top: 10px;
+}
+
+.owl-next, .owl-prev {
+    background-color: var(--light) !important;
+    color: black !important;
+}
+
 .fw-bold {
     font-weight: 700 !important;
 }
