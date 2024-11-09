@@ -33,7 +33,10 @@
         loop: true,
         nav: true,
         dots: false,
-        navText: ["<span><</span>", "<span>></span>"],  // Custom text for navigation
+        navText: [
+            "<span><i class='fa fa-arrow-left'></i></span>", 
+            "<span><i class='fa fa-arrow-right'></i></span>"
+        ],  // Custom text for navigation
         // Enables looping
     });
     
