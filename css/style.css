@@ -230,6 +230,12 @@
     transition: .5s;
 }
 
+/* Change the color of the navbar toggler icon */
+.navbar-toggler-icon {
+    filter: invert(100%)
+  }
+  
+
 .header-carousel .owl-nav .owl-prev:hover,
 .header-carousel .owl-nav .owl-next:hover {
     background: var(--primary);
