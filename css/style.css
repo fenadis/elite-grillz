@@ -282,10 +282,9 @@
 }
 
 .page-header {
-    width: auto; /* Full width */
-    height: auto; /* Adjusts height based on the image's aspect ratio */
-    background: url(../img/header-page.jpg) no-repeat Right center;
-    background-size: contain;
+    background: url(../img/header-page.jpg) top center no-repeat;
+    background-size: cover;
+    text-shadow: 0 0 30px rgba(0, 0, 0, .1);
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
